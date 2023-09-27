@@ -1,7 +1,7 @@
 [
     {
         "name": "OptiFabric",
-        "description": "Can be used to run OptiFine on the Fabric Loader\n<b>Note!</b> Optifine should be included in your [mods] folder.",
+        "description": "Pode ser usado para Rodar Optifine no Fabric\n<b>Atencao!</b> Optifine deve estar na sua pasta de mods",
         "incompatible": [],
         "versions": [
             {
@@ -80,7 +80,7 @@
     },
     {
         "name": "Sodium",
-        "description": "Modern rendering engine and client-side optimization mod for Minecraft",
+        "description": "Otimizacoes na renderizacao do jogo",
         "incompatible": [],
         "versions": [
             {
@@ -177,7 +177,7 @@
     },
     {
         "name": "Starlight",
-        "description": "Rewrites the light engine to fix lighting performance and lighting errors",
+        "description": "Corrige Bugs realicionados a luz e melhora a perfomance, nao eh compativel com Phospor",
         "incompatible": [
             "Phosphor"
         ],
@@ -276,7 +276,7 @@
     },
     {
         "name": "Phosphor",
-        "description": "Improve the performance of Minecraft's lighting engine while fixing many bugs",
+        "description": "Corrige Bugs realicionados a luz e melhora a perfomance, nao eh compativel com Starlight",
         "incompatible": [
             "Starlight"
         ],
@@ -315,7 +315,7 @@
     },
     {
         "name": "Lithium",
-        "description": "No-compromises game logic/server optimization mod",
+        "description": "Otimizacao da logica do jogo",
         "incompatible": [],
         "versions": [
             {
@@ -424,7 +424,7 @@
     },
     {
         "name": "Krypton",
-        "description": "Optimizes the Minecraft networking stack and entity tracker.\n<b>Note!</b> It could be cause issues for some macros.",
+        "description": "Melhora a estabilidade do Multiplayer.\n<b>Atencao!</b> Pode causar problemas em alguns macros.",
         "incompatible": [],
         "versions": [
             {
@@ -461,7 +461,7 @@
     },
     {
         "name": "Dynamic FPS",
-        "description": "Improve performance when Minecraft is in the background",
+        "description": "Melhora a performance enquanto o Minecraft esta no plano de fundo",
         "incompatible": [
             "SleepBackground"
         ],
@@ -504,7 +504,7 @@
     },
     {
         "name": "ServerSideRNG",
-        "description": "Helps to ensure the legitimacy of Minecraft Speedruns",
+        "description": "INUTIL NAO FUNCIONA MAIS, mas vou deixar pq vai que alguem quer",
         "incompatible": [],
         "versions": [
             {
@@ -517,7 +517,7 @@
     },
     {
         "name": "SpeedRunIGT",
-        "description": "In-game Timer for Minecraft Speedrun",
+        "description": "Timer dentro do jogo para Speedruns",
         "incompatible": [],
         "versions": [
             {
@@ -668,7 +668,7 @@
     },
     {
         "name": "Atum",
-        "description": "Automatically reset random and set seeds",
+        "description": "Resetar seeds aleatorias e Set seeds automaticamente",
         "incompatible": [],
         "versions": [
             {
@@ -783,7 +783,7 @@
     },
     {
         "name": "Fast Reset",
-        "description": "Skip saving the world when leaving the world to faster reset.",
+        "description": "Pular o botao de salvar o mundo para sair de mundos mais rapido",
         "incompatible": [],
         "versions": [
             {
@@ -820,7 +820,7 @@
     },
     {
         "name": "Anchiale",
-        "description": "Skip saving the world when leaving the world to faster reset but for Pre 1.9",
+        "description": "Pular o botao de salvar o mundo para sair de mundos mais rapido, mas para pre 1.9",
         "incompatible": [],
         "versions": [
             {
@@ -839,7 +839,7 @@
     },
     {
         "name": "WorldPreview",
-        "description": "Draws a preview of the world on the loading screen during chunk generation.",
+        "description": "Cria uma previa do mundo durante a geracao de Chunks",
         "incompatible": [],
         "versions": [
             {
@@ -888,7 +888,7 @@
     },
     {
         "name": "LazyDFU",
-        "description": "Makes the initialization of DataFixerUpper \"lazy\", making the game start more quickly",
+        "description": "Inicializa DataFixerUpper de uma forma diferente, fazendo o jogo comecar mais rapido",
         "incompatible": [],
         "versions": [
             {
@@ -1039,7 +1039,7 @@
     },
     {
         "name": "Voyager",
-        "description": "Fixes a rare CME (ConcurrentModificationException) when using java 11+",
+        "description": "Corrige um erro raro (ConcurrentModificationException) quando se usa java 11+",
         "incompatible": [],
         "versions": [
             {
@@ -1083,7 +1083,7 @@
     },
     {
         "name": "TabFocus",
-        "description": "Implement button focus by press tab feature in Pre-1.14",
+        "description": "Implementa o foco do botão pressionando tab na Pre-1.14",
         "incompatible": [],
         "versions": [
             {
@@ -1162,7 +1162,7 @@
     },
     {
         "name": "FabricProxy-Lite",
-        "description": "Support forward player data from \"Velocity\" proxy",
+        "description": "Suporta encaminhamento de dados do jogador do proxy \"Velocity\"",
         "incompatible": [],
         "versions": [
             {
@@ -1229,7 +1229,7 @@
     },
     {
         "name": "LazyStronghold",
-        "description": "Generates stronghold locations on a seperate thread to speed up world generation",
+        "description": "Gera o Stronhold em uma thread diferente para acelerar a criacao",
         "incompatible": [],
         "versions": [
             {
@@ -1266,7 +1266,7 @@
     },
     {
         "name": "BiomeThreadLocalFix",
-        "description": "Fix Biome ThreadLocal Memory leak issue",
+        "description": "Corrige problema de vazamento de memoria",
         "incompatible": [],
         "versions": [
             {
@@ -1279,7 +1279,7 @@
     },
     {
         "name": "LegacyPlanarFog",
-        "description": "Make terrain fog rendering to planar",
+        "description": "Faz a renderização da neblina no terreno plana (Planar Fog)",
         "incompatible": [],
         "versions": [
             {
@@ -1292,7 +1292,7 @@
     },
     {
         "name": "StatsPerWorld",
-        "description": "Separation of achievements and statistics per world in Minecraft Pre-1.7",
+        "description": "Separação de conquistas e estatísticas por mundo no Minecraft Pre-1.7",
         "incompatible": [],
         "versions": [
             {
@@ -1323,7 +1323,7 @@
     },
     {
         "name": "SleepBackground",
-        "description": "Improve performance when Minecraft is in the background with config",
+        "description": "Melhora a performance enquanto o Minecraft esta no plano de fundo, mas configuravel",
         "incompatible": [
             "Dynamic FPS"
         ],
@@ -1410,7 +1410,7 @@
     },
     {
         "name": "antiresourcereload",
-        "description": "Caches datapack and server resources to make world creation faster",
+        "description": "Armazena Datapacks e recursos do servidor em cache para tornar a criação de mundos mais rápida",
         "incompatible": [],
         "versions": [
             {
@@ -1459,7 +1459,7 @@
     },
     {
         "name": "StandardSettings",
-        "description": "Defaults settings to a standard set by the player when creating a new World for macros\n<b>Note!</b> If you are using this mod for the first time, please read the <a href='https://github.com/KingContaria/StandardSettings/blob/1.16.1/README.md' target='_blank'>README</a> before use it.",
+        "description": "As configurações sao resetadas para um padrao que voce configura quando um novo mundo eh criado\n<b>Atencao!</b> Se você estiver usando este mod pela primeira vez, leia o <a href='https://github.com/KingContaria/StandardSettings/blob/1.16.1/README.md' target='_blank'>README</a> antes de usá-lo.",
         "incompatible": [],
         "readme": "https://github.com/KingContaria/StandardSettings/blob/1.16.1/README.md",
         "versions": [
@@ -1563,7 +1563,7 @@
     },
     {
         "name": "extra-options",
-        "description": "Adds the 1.17 options of a monochrome logo, reduced distortion effects and reduced fov effects",
+        "description": "Adiciona as opções 1.17 de um logo monocromatico, efeitos de distorção reduzidos e efeitos de fov reduzidos",
         "warn": "You may only use this mod if medically necessary, <b>and</b> if you have permission from the moderation team <b>before</b> submitting any run with it.",
         "incompatible": [],
         "versions": [
@@ -1602,8 +1602,8 @@
     },
     {
         "name": "set-spawn-mod",
-        "description": "Set your spawnpoint to specified coordinates during set seed runs",
-        "warn": "This mod is allowed ONLY for Set Seed or Set Seed Glitchless runs.",
+        "description": "Faz seu SpawnPoint ser sempre na mesma coordenada em SSG",
+        "warn": "Use APENAS para runs Set Seed",
         "incompatible": [
             "WorldPreview"
         ],
@@ -1660,8 +1660,8 @@
     },
     {
         "name": "ChunkCacher",
-        "description": "Caches chunks up to before features stage for set seed",
-        "warn": "This mod is allowed ONLY for Set Seed or Set Seed Glitchless runs.",
+        "description": "Armazena chunks de seeds de SSG para que tudo seja mais rapido",
+        "warn": "Use APENAS para runs Set Seed",
         "incompatible": [
             "WorldPreview",
             "LazyStronghold"
