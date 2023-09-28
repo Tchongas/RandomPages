@@ -519,7 +519,7 @@
         "name": "Autoreseter de praia",
         "description": "Mod que te da apenas seeds de praia (Somente para tabela BR)",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
-        "incompatible": [],
+        "incompatible": ["WorldPreview"],
         "versions": [
             {
                 "buildVersion": "9.0.0",
