@@ -517,7 +517,7 @@
     },
     {
             "name": "ChunkMod",
-        "description": "Mod para resetar mais rapido bem antigo",
+        "description": "Mod para resetar mais rapido, bem antigo",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
         "incompatible": ["WorldPreview"],
         "versions": [
