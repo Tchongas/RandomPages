@@ -515,6 +515,19 @@
             }
         ]
     },
+            "name": "ChunkMod",
+        "description": "Mod para resetar mais rapido bem antigo",
+        "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
+        "incompatible": ["WorldPreview"],
+        "versions": [
+            {
+                "buildVersion": "9.0.0",
+                "targetVersion": "1.16.1",
+                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-serversiderng-1.16.1/releases/download/v9/serverSideRNG-9.0.0.jar",
+                "filename": "serverSideRNG-9.0.0.jar"
+            }
+        ]
+    },
     {
         "name": "SpeedRunIGT",
         "description": "Timer dentro do jogo para Speedruns",
