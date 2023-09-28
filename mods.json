@@ -517,7 +517,7 @@
     },
     {
         "name": "Autoreseter de praia",
-        "description": "Mod que te da apenas seeds de praia (Somente para tabela BR)",
+        "description": "Mod que te da apenas seeds de praia, nao eh compativel com WorldPreview e ChunkMod (Somente para tabela BR)",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
         "incompatible": ["WorldPreview", "ChunkMod"],
         "versions": [
@@ -531,9 +531,9 @@
     },
     {
         "name": "ChunkMod",
-        "description": "Mod para resetar mais rapido, bem antigo (Somente para tabela BR)",
+        "description": "Mod para resetar mais rapido, bem antigo, nao eh compativel com WorldPreview e AR de praia (Somente para tabela BR)",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
-        "incompatible": ["WorldPreview"],
+        "incompatible": ["WorldPreview", "Autoreseter de praia"],
         "versions": [
             {
                 "buildVersion": "1.0.0",
