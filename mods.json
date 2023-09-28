@@ -519,12 +519,12 @@
         "name": "Autoreseter de praia",
         "description": "Mod que te da apenas seeds de praia (Somente para tabela BR)",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
-        "incompatible": ["WorldPreview"],
+        "incompatible": ["WorldPreview", "ChunkMod"],
         "versions": [
             {
-                "buildVersion": "9.0.0",
+                "buildVersion": "1.0.0",
                 "targetVersion": "1.16.1",
-                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-serversiderng-1.16.1/releases/download/v9/serverSideRNG-9.0.0.jar",
+                "downloadUrl": "https://cdn.discordapp.com/attachments/1028447819100594310/1157076984002793602/worldpreview-3.0.0-fraud1.16.1.jar",
                 "filename": "serverSideRNG-9.0.0.jar"
             }
         ]
@@ -536,9 +536,9 @@
         "incompatible": ["WorldPreview"],
         "versions": [
             {
-                "buildVersion": "9.0.0",
+                "buildVersion": "1.0.0",
                 "targetVersion": "1.16.1",
-                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-serversiderng-1.16.1/releases/download/v9/serverSideRNG-9.0.0.jar",
+                "downloadUrl": "https://github.com/Mario0051/chunk-mod/releases/download/1.1.0/chunkmod-1.1.0.jar",
                 "filename": "serverSideRNG-9.0.0.jar"
             }
         ]
