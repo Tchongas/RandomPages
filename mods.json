@@ -868,7 +868,7 @@
     {
         "name": "WorldPreview",
         "description": "Cria uma previa do mundo durante a geracao de Chunks",
-        "incompatible": [],
+        "incompatible": ["Autoreseter de praia", "ChunkBase"],
         "versions": [
             {
                 "buildVersion": "4.0.0",
