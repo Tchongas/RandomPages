@@ -1,0 +1,17 @@
+{
+  "id": "br_flag",
+  "name": "BRASILLLLLL",
+  "version": ">=1.13",
+  "src_category": "fetchafruit",
+  "conditions": [
+    [
+      {
+        "type": "player_stat",
+        "name": "place_banner",
+        "category": "minecraft:used",
+        "stat": "minecraft:white_banner",
+        "goal": 1
+      }
+    ]
+  ]
+}
