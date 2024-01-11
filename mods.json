@@ -481,7 +481,7 @@
             {
                 "buildVersion": "1.0.2",
                 "targetVersion": "1.8.0",
-                "downloadUrl": "https://github.com/RedLime/Pre1.9-Dynamic-FPS/releases/download/1.0.1/mangodfps-1.0.2-SNAPSHOT%2B1.8.jar",
+                "downloadUrl": "https://github.com/RedLime/Pre1.9-Dynamic-FPS/releases/download/1.0.1/mangodfps-1.0.2-SNAPSHOT+1.8.jar",
                 "filename": "mangodfps-1.0.2-SNAPSHOT+1.8.jar"
             },
             {
@@ -841,7 +841,7 @@
             {
                 "buildVersion": "1.8.9",
                 "targetVersion": "3.0.0",
-                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-anchiale-1.8-1.8.9/releases/download/v3/anchiale-1.8.9-3.0.0.jar",
+                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-anchiale-1.8-1.8.9/releases/download/latest/anchiale-1.8.9-3.0.0.jar",
                 "filename": "anchiale-1.8.9-3.0.0.jar"
             },
             {
@@ -1714,7 +1714,7 @@
             },
             {
                 "buildVersion": "1.0.0",
-                "targetVersion": "1.18.2",
+                "targetVersion": "1.18.x",
                 "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-chunkcacher-1.18-1.18.2/releases/download/v3/chunkcacher-1.18-1.18.2-3.0.0.jar",
                 "filename": "chunkcacher-1.18-1.18.2-3.0.0.jar"
             }
