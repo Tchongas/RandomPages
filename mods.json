@@ -503,19 +503,6 @@
         ]
     },
     {
-        "name": "ServerSideRNG",
-        "description": "INUTIL NAO FUNCIONA MAIS, mas vou deixar pq vai que alguem quer",
-        "incompatible": [],
-        "versions": [
-            {
-                "buildVersion": "9.0.0",
-                "targetVersion": "1.16.1",
-                "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-serversiderng-1.16.1/releases/download/v9/serverSideRNG-9.0.0.jar",
-                "filename": "serverSideRNG-9.0.0.jar"
-            }
-        ]
-    },
-    {
         "name": "Autoreseter de praia",
         "description": "Mod que te da apenas seeds de praia, nao eh compativel com WorldPreview e ChunkMod (Somente para tabela BR)",
         "warn": "NAO eh permitido no speedrun.com, SOMENTE permitido na tabela BR",
@@ -525,7 +512,7 @@
                 "buildVersion": "1.0.0",
                 "targetVersion": "1.16.1",
                 "downloadUrl": "https://cdn.discordapp.com/attachments/1028447819100594310/1157076984002793602/worldpreview-3.0.0-fraud1.16.1.jar",
-                "filename": "serverSideRNG-9.0.0.jar"
+                "filename": "worldpreview-3.0.0-fraud1.16.1.jar"
             }
         ]
     },
@@ -1730,6 +1717,25 @@
                 "targetVersion": "1.18.2",
                 "downloadUrl": "https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-chunkcacher-1.18-1.18.2/releases/download/v3/chunkcacher-1.18-1.18.2-3.0.0.jar",
                 "filename": "chunkcacher-1.18-1.18.2-3.0.0.jar"
+            }
+        ]
+    }
+        {
+        "name": "Chunkumulator",
+        "description": "Melhora como o Minecraft envia chunks para o servidor, ajuda players com internet ruim",
+        "incompatible": [],
+        "versions": [
+            {
+                "buildVersion": "1.0.3",
+                "targetVersion": "1.16.1",
+                "downloadUrl": "https://cdn.modrinth.com/data/NdXjQHpc/versions/l2M64WzA/chunkumulator-1.0.3%2BMC1.16.1.jar",
+                "filename": "chunkumulator-1.0.3+MC1.16.1.jar"
+            },
+            {
+                "buildVersion": "1.0.3",
+                "targetVersion": "1.15.2",
+                "downloadUrl": "https://cdn.modrinth.com/data/NdXjQHpc/versions/W3ehFTAL/chunkumulator-1.0.3%2BMC1.15.2.jar",
+                "filename": "chunkumulator-1.0.3+MC1.15.2.jar"
             }
         ]
     }
